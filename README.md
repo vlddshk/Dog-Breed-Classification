@@ -47,20 +47,19 @@ This project uses Deep Learning to identify dog breeds from images. The model is
 
 ### 1. Training the Model
 If you want to train the model yourself:
-1.  Download the [Stanford Dogs Dataset](http://vision.stanford.edu/aditya86/ImageNetDogs/) and unpack it into the `dataset/` folder.
-2.  Run the script:
-    ```bash
-    python train.py
-    ```
-    After training completes, the best model will be saved in `models/baseline_model.h5`.
+    Run the script:
+```bash
+python train.py
+```
+After training completes, the best model will be saved in `models/baseline_model.h5`.
 
 ### 2. Photo Prediction (CLI)
 To quickly test the model on a local photo:
-1.  In `inference.py` (in the `main` function), you can specify the image path or pass a list of files.
-2.  Run:
-    ```bash
-    python inference.py
-    ```
+1.   In `inference.py` (in the `main` function), you can specify the image path or pass a list of files.
+2.    Run:
+```bash
+python inference.py
+```
 
 ### 3. Running the Telegram Bot
 To activate the bot:
