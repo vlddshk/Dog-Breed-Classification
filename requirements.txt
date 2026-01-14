@@ -1,0 +1,10 @@
+numpy
+pandas
+matplotlib
+Pillow
+scikit-image
+tensorflow
+imageio
+pyTelegramBotAPI
+python-dotenv
+ipython
